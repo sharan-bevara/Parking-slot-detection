@@ -1,2 +1,2 @@
 # Parking-slot-detection
-Author- Sharan
+This project is focused on parking spot detection and tracking using computer vision techniques. It utilizes OpenCV to process video frames from a parking lot to detect and monitor the status of parking spots. Initially, a mask image is used to identify the parking spot boundaries, and the connected components in the mask are analyzed using connectedComponentsWithStats to extract the bounding boxes of individual parking spots. 
